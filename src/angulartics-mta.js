@@ -20,7 +20,7 @@
         $analyticsProvider.registerPageTrack(function (path) {
             if (window.mta) {
                 var data = {};
-                data[action] = 1;
+                data[path] = 1;
                 mta('count', 'pageview', data);
             }
         });
