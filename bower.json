@@ -1,6 +1,6 @@
 {
   "name": "wangshijun-angulartics",
-  "version": "0.15.20",
+  "version": "0.15.21",
   "main": [
     "src/angulartics.js",
     "src/angulartics-adobe.js",
